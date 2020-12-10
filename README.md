@@ -23,10 +23,6 @@ make up
 ### Laravelのインストール
 
 ```
-make work
-```
-
-```
 make create-project
 ```
 
@@ -49,14 +45,12 @@ DB_PASSWORD=password
 APP_URL=http://localhost:8000
 ```
 
-## Docker構築の参考
+### artisanコマンドの実行場所
 
 ```
-https://qiita.com/shimotaroo/items/29f7878b01ee4b99b951
+make work
 ```
 
-## Bootstrapの導入
-
 ```
-https://qiita.com/mako0104/items/8fde8349ac4d21aa0fc0
+cd server
 ```
