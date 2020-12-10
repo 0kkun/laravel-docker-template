@@ -50,7 +50,3 @@ APP_URL=http://localhost:8000
 ```
 make work
 ```
-
-```
-cd server
-```
