@@ -26,6 +26,9 @@ make up
 make create-project
 ```
 
+serverディレクトリ配下のlaravelディレクトリにアプリのファイルが作成されるので、
+その中身を非表示ファイルごと一階層上のディレクトリに移動させる
+
 ### MySQLとの接続を設定
 
 - .envファイルを下記のように設定
@@ -43,6 +46,10 @@ DB_PASSWORD=password
 
 ```
 APP_URL=http://localhost:8000
+```
+
+- 一度
+```
 ```
 
 ### artisanコマンドの実行場所

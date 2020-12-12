@@ -3,7 +3,7 @@ up:
 build:
 		docker-compose build
 create-project:
-		docker-compose exec php composer create-project --prefer-dist "laravel/laravel=5.7.*" server
+		docker-compose exec php composer create-project --prefer-dist "laravel/laravel=5.7.*"
 install:
 		docker-compose up -d --build
 		docker-compose exec php composer install
@@ -72,3 +72,6 @@ goute:
 		docker-compose exec php composer require weidner/goutte
 # redis:
 # 		docker-compose exec redis redis-cli
+
+mv-project:
+		mv * ../
