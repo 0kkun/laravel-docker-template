@@ -48,10 +48,6 @@ DB_PASSWORD=password
 APP_URL=http://localhost:8000
 ```
 
-- 一度
-```
-```
-
 ### artisanコマンドの実行場所
 
 ```
